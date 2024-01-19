@@ -1,4 +1,14 @@
 def div(a,b):
+    """
+    Division two numbers.
+
+    Parameters:
+    - a (int): The first number.
+    - b (int): The second number.
+
+    Returns:
+    int: The Division of a and b.
+    """
     if b == 0:
         raise ValueError("Cannot divide by zero.")
     return a / b
